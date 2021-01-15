@@ -1,0 +1,41 @@
+* {
+  background-color: black;
+  color: ghostwhite;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: larger;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid blue;
+  height: 300px;
+  width: 300px;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.shooter {
+  background-color: lightblue;
+  border-radius: 0.15rem;
+}
+
+.invader {
+  background-color: darkorchid;
+  border-radius: 10px;
+}
+
+.boom {
+  background-color: crimson;
+}
+
+.laser {
+  background-color: orangered;
+}
